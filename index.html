@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="headcontainer">
+        <h1>Learn to code by watching others</h1> 
+        <h3>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </h3> 
+    </div> 
+  <div class="row1" id="rowhead"> <b> Try it free 7 days then $20/mo. thereafter</b></div>
+  <div class="container" id="containerhead">
+    <input type="text" class="rows" id="row-1" placeholder="Name*">
+    <input type="text" class="rows" id="row-2" placeholder="LastName*">
+    <input type="email" class="rows" id="row-3" placeholder="Email*">
+    <input type="password" class="rows" id="row-4"placeholder="Password*">
+    <button id="submitbutton" onclick="myfunction()" ><span>Claim your free trial </span></button>
+  </div>
+</div>
+<div class="thanku">
+    <p>
+        <h1> <u>Thank You</u></h1>
+        <h2>You have successfully Registered</h2>
+    </p>
+</div>
+  <script>
+      document.querySelector('.thanku').style.display="none";
+      function myfunction(){
+
+          document.querySelector('.main').style.display="none";
+          document.querySelector('.thanku').style.display="block";
+      }
+      </script>
+
+</body>
+</html>

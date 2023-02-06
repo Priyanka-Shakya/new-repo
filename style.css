@@ -1,0 +1,104 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: url('/images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+.headcontainer{
+    height: 20vh;
+    /* border: 2px solid green; */
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.row1{
+    border: 2px solid black;
+    height: 6vh;
+    width: 28vw;
+    background-color: rgb(151, 77, 221);
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 6px 6px 6px  rgb(120, 19, 214) ;
+}
+
+.rows{
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 18px;
+    height: 6vh;
+    width: 24vw;
+    border-radius: 6px;
+    border: 2px solid hsl(0, 100%, 74%);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 12px;
+    box-shadow: 2px 2px 2px hsl(0, 67%, 73%) ;
+}
+
+.rows:hover{
+    background-color: hsl(79, 44%, 83%);
+    cursor: pointer;
+}
+
+#containerhead{
+    color: white;
+}
+
+.container{
+    height:68vh ;
+    width: 28vw;
+    border: 2px solid black;
+    margin-left: 450px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    box-shadow: 6px 6px 6px hsl(0, 74%, 55%);
+    margin-bottom: 12px;
+}
+
+#submitbutton{
+    margin-left: 15px;
+    margin-top: 45px;
+    height: 7vh;
+    width: 25vw;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color:hsl(154, 59%, 51%);
+    border: none;
+}
+
+#submitbutton:hover{
+    cursor: pointer;
+    background-color:blue;
+}
+
+.thanku{
+    height: 40vh;
+    width: 80vw;
+    border: 2px solid purple;
+    margin-top: 200px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(213, 55, 166);
+    color: white;
+    font-family: sans-serif;
+    padding-top: 12px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px hsl(0, 80%, 61%);
+    border: none;
+}
